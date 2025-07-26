@@ -21,12 +21,24 @@ const Card=(props)=>{
                 <p>{review.job}</p>
             </div>
 
-            <div><FaQuoteLeft/></div>
+           
 
             <div>
-                {review.text}
+                <button>
+                    +
+
+                </button>
+                <button>
+                    *
+                </button>
+            </div>
+
+            <div>
+                <button>Surprise Me</button>
             </div>
 
         </div>
     )
 }
+
+export default Card;
